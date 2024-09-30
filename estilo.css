@@ -1,0 +1,38 @@
+/* Estilo para o container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+/* Estilo para o botão */
+.botao-globo {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Estilo para a imagem */
+.botao-globo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Estilo para o texto */
+.botao-globo span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo para quando o botão for pressionado */
+.botao-globo:active {
+    background-color: #333;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    color: aqua;
+    background-image: url('6074571.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .data-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 20px;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #7a78ec;
+    border-radius: 20px;
+  }
+  
+  .data-table th {
+    background-color: #1e0d47;
+    
+  }
+  
